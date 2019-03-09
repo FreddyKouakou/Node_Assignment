@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First Class Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+
+    <fieldset>
+        <form action="/getRate" method="GET">
+            Please specify the weight here <input type="text"  name="weight"> 
+            <br><br>
+               <select name="type"> 
+                <option ></option>
+                <option value="stamp">Letters (Stamped)</option>
+                <option value="mater">Letters (Matered)</option>
+                <option value="flat">Large Envelopes(Flats)</option>
+                <option value="retail">First-Class Package Service - Retail</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Send">
+
+        </form>
+    </fieldset>
+
+</body>
+</html>
