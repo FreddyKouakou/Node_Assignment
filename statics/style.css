@@ -41,3 +41,11 @@ form select{
     width: 10%;
     max-width: 20rem;  
 }
+h1{
+    color: #000;
+    }
+    h3{
+        background:lightblue;
+        color: red;
+        padding: 10px;
+    }
