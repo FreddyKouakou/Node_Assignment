@@ -112,11 +112,8 @@ res.render("response", changeToJson);
 
 })
 
-function calculateRate(){
-
-}
 const port = process.env.PORT || 5000
 
 app.listen(port, function(){
-    console.log("The is up and listernining to port 5000")
+    console.log("The server is up and listenning to port 5000")
 })

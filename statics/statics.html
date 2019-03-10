@@ -10,8 +10,10 @@
 <body>
 
     <fieldset>
+            <legend> Please specify the weight, Select Type and Send </legend>
         <form action="/getRate" method="GET">
-            Please specify the weight here <input type="text"  name="weight"> 
+
+            <input type="text"  name="weight"> 
             <br><br>
                <select name="type"> 
                 <option ></option>
@@ -21,7 +23,7 @@
                 <option value="retail">First-Class Package Service - Retail</option>
             </select>
             <br><br>
-            <input type="submit" value="Send">
+            <input id="sub" type="submit" value="Send">
 
         </form>
     </fieldset>
